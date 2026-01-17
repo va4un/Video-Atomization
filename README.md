@@ -23,8 +23,8 @@ An intelligent video processing platform that automatically identifies key momen
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
-cd video-atom
+git clone https://github.com/va4un/Video-Atomization.git
+cd Video-Atomization
 ```
 
 ### 2. Install Dependencies
@@ -283,7 +283,7 @@ This approach is:
 Each processed video generates:
 
 - **N key moments** → **2N clip files** (N horizontal + N vertical)
-- Files named: `clip-{index}-{title}-horizontal.mp4` and `clip-{index}-{title}-vertical.mp4`
+- Files named: `{title}-horizontal.mp4` and `{title}-vertical.mp4`
 - All clips stored in: `clips/{video-name}/` directory in Wasabi
 
 ## 🚨 Troubleshooting
